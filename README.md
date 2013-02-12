@@ -11,7 +11,7 @@ awesome "Les Misérables Co-occurrence" visualization of the characters in the m
 You can find his great work here: http://bost.ocks.org/mike/miserables/
 
 Note, I had to transform your matrix.txt into a d3 json file. There are some python scripts around to help with that. 
-I postedthe one I used in the folder also: transform.py.
+I posted the one I used in the folder also: transform.py.
 
 Also, d3 wants the two files to be served across http, so you can drop them in your own share or view my dump here: http://www.deronaucoin.com/viz/datavizpf.html
 
