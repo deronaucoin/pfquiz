@@ -45,22 +45,8 @@ for dirname, dirnames, filenames in os.walk('data'):
             for cprovider in control:           
                 sorted, distances = getClosestProviders(cprovider[1:4],fullTreatmentMatrix[:,1:4])
                 if distances[sorted[0]] != distances[sorted[0+1]]:
-                    
                     matchedProviderId = sorted[0]+1
-                    
                     writer.writerow([cprovider[0],matchedProviderId,int(fileNum)])
                     
-        
-    
 f.close()
-                  
-print "Results saved to ", savedCSVFile      
-        
-        
-    
-
-
-      
-      
-      
-      
+print "Results saved to", savedCSVFile
