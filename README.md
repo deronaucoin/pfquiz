@@ -9,7 +9,7 @@ something about d3. However, I am not entirely pleased at the result. What you s
 awesome "Les Misérables Co-occurrence" visualization of the characters in the musical. 
 You can find his great work here: http://bost.ocks.org/mike/miserables/
 
-Note, d3 wants the two files to be served across http, so you might need to drop the two files onto a server share somewhere. 
+Note, d3 wants the two files to be served across http, so you can drop them in your own share or view my dump here: http://www.deronaucoin.com/viz/datavizpf.html
 
 The quantitative reasoning questions are answered in the similarly named pdf file.
 
