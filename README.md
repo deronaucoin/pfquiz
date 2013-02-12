@@ -2,7 +2,8 @@ This repo houses my responses to the pre-interview home questions for Practice F
 
 The SQL section answers are found under sqlqueries.sql.
 
-The programming section is handled in PFQuiz.py. 
+The programming section is handled in PFQuiz.py. Aside from the numpy library, it only requires the data files exist in a 
+/data directory off the script's directory.
 
 The two files for the visualization are found in /viz. I wanted to use this opportunity to learn 
 something about d3. However, I am not entirely pleased at the result. What you see is a copy and modify of the 
