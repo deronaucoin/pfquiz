@@ -11,7 +11,7 @@ You can find his great work here: http://bost.ocks.org/mike/miserables/
 
 The quantitative reasoning questions are answered in the similarly named doc file.
 
-Finally, there is a short doc of some health data research ideas. To be honest, my surgical resident girlfiend has some
+Finally, there is a short doc of some health data research ideas. To be honest, my surgical resident girlfiend had some
 nice input here. She acted like a kid in the candy store when I explained the amount and types of data that Practice Fusion
 may have access to. 
 
