@@ -1,3 +1,5 @@
+#Slightly modified from: https://github.com/alexland/d3-data-adapter/blob/master/d3-graph-data-adapter.py
+
 import os
 import random as RND
 import numpy as NP
@@ -39,31 +41,10 @@ def write_jsongraph(graphfilename, json_graph_obj):
         JSON.dump(json_graph_obj, f, indent=2)
 
 
-#------------- teset --------------#
-
-def utest1():
-    G = NX.florentine_families_graph()
-    AM = NX.to_numpy_matrix(G).tolist()
-    write_jsongraph("gd1.json", adjmatrix_tojson(AM))
-
-
-def utest2():
-    G = NX.erdos_renyi_graph(25, .1, 456)
-    AM = NX.to_numpy_matrix(G).tolist()
-    write_jsongraph("gd1.json", adjmatrix_tojson(AM))
-
-
-def utest3():
-    G = NX.bipartite_gnmk_random_graph(20, 10, 50)
-    AM = NX.to_numpy_matrix(G).tolist()
-    write_jsongraph("gd1.json", adjmatrix_tojson(AM))
-
 
 datastring = open("matrix.txt",'r').read()
-print datastring
 numarray = eval(datastring)
 arr = NP.array(numarray)
 arr= arr*10000
-
 write_jsongraph("graph.json", adjmatrix_tojson(arr)) 
     
