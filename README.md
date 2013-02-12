@@ -1,4 +1,4 @@
-This repo houses my responses to the interview questions for Practice Fusion. 
+This repo houses my responses to the pre-interview home questions for Practice Fusion. 
 
 The SQL section answers are found under sqlqueries.sql.
 
