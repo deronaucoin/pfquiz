@@ -1,5 +1,3 @@
-This repo houses my responses to the pre-interview home questions for Practice Fusion. 
-
 The SQL section answers are found under sqlqueries.sql.
 
 The programming section is handled in PFQuiz.py. Aside from the numpy library, it only requires the data files exist in a 
